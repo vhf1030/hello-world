@@ -1,5 +1,19 @@
 1일 1커밋 시작!
 
-1. 뭐할지 정하기
- - 홈페이지 만들기: GitHub.io
+0. 중요
+ - 백업파일 다운로드
 
+1. 프로젝트
+ - 홈페이지 만들기: GitHub.io
+ 
+  한거
+  - GitHub.io URL 등록 완료: https://vhf1030.github.io/home/
+  - git cmd 실행 확인 완료
+  
+  할거
+  - Ruby 및 Jekyll 설치
+  참고: https://theorydb.github.io/envops/2019/05/03/envops-blog-github-pages-jekyll/
+  
+  정할거
+  - github에서 만들지 / 로컬에서 만들고 github로 올릴지
+  
