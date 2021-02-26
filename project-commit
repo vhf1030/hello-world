@@ -9,6 +9,7 @@
   한거
   - GitHub.io URL 등록 완료: https://vhf1030.github.io/home/
   - git cmd 실행 확인 완료
+  - github.io는 정적페이지밖에 만들지 못함.. home server 및 django 이용하기!
   
   할거
   - Ruby 및 Jekyll 설치
