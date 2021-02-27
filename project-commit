@@ -4,7 +4,8 @@
  - 백업파일 다운로드
 
 1. 프로젝트
- - 홈페이지 만들기: GitHub.io
+ - 홈페이지 만들기: GitHub.io (x)
+ - 동적 웹 페이지 만들기: home server + django
  
   한거
   - GitHub.io URL 등록 완료: https://vhf1030.github.io/home/
@@ -12,11 +13,13 @@
   - github.io는 정적페이지밖에 만들지 못함.. home server 및 django 이용하기!
   
   할거
-  - Ruby 및 Jekyll 설치
+  - Ruby 및 Jekyll 설치 (x)
   참고: https://theorydb.github.io/envops/2019/05/03/envops-blog-github-pages-jekyll/
+  - home server: 유튜브 강의 보기(생활코딩)
+  - django: 점프 투 장고 보면서 실습하기
   
   정할거
-  - github에서 만들지 / 로컬에서 만들고 github로 올릴지
+  - github에서 만들지 / 로컬에서 만들고 github로 올릴지 (x)
   
 2. 히스토리
  - 210221
@@ -40,4 +43,8 @@
   jykyll 테마 설정
   테마를 사용할지 말지 생각해보기
   동적 페이지 생성 방법 확인해보기 - github.io로는 안된다고 함
-  -> home server 공부하기 및 django 확인하기 
+  -> home server 공부하기 및 django 확인하기
+ - 200227
+  주말에는 오전에 공부하기
+  django 학습: 점프 투 장고로 진행
+  https://wikidocs.net/book/4223
