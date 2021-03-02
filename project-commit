@@ -6,21 +6,29 @@
 1. 프로젝트
  - 홈페이지 만들기: GitHub.io (x)
  - 동적 웹 페이지 만들기: home server + django
+   가상화폐 거래량 확인 사이트
  
   한거
-  - GitHub.io URL 등록 완료: https://vhf1030.github.io/home/
-  - git cmd 실행 확인 완료
-  - github.io는 정적페이지밖에 만들지 못함.. home server 및 django 이용하기!
-  
+  - github.io 검토
+   GitHub.io URL 등록 완료: https://vhf1030.github.io/home/
+   git cmd 실행 확인 완료
+   github.io는 정적페이지밖에 만들지 못함
+  - home server 및 django 검토
+  - 프로젝트 시작
+   django를 이용한 동적 웹페이지 구현
+   home server 이용
+   
   할거
   - Ruby 및 Jekyll 설치 (x)
   참고: https://theorydb.github.io/envops/2019/05/03/envops-blog-github-pages-jekyll/
   - home server: 유튜브 강의 보기(생활코딩)
   - django: 점프 투 장고 보면서 실습하기
   참고: https://wikidocs.net/book/4223
-  
-  정할거
-  - github에서 만들지 / 로컬에서 만들고 github로 올릴지 (x)
+  - 계획표
+    ~03/07: 점프 투 장고 2장 실습 / 가상화폐 크롤링 모델 구현
+    ~03/14: 점프 투 장고 3장 실습 / home server 유튜브 강의
+    ~03/21: 점프 투 장고 4장 실습 / home server 적용 실습
+    ~03/28: jango 이용하여 거래량 확인 서비스 배포
   
 2. 히스토리
  - 210221
@@ -54,3 +62,16 @@
   2-02까지 완료!
   url 생성 및 모델 생성
   참고: docs.djangoproject.com/en/3.0/topics/db/queries (장고 공식 문서(데이터 조회 관련))
+ - 210301
+  비행기 결항으로 commit 실패
+ - 210302
+  (cmd)
+  run_mysite
+  python manage.py runserver
+  장고 admin 편의기능
+  참고: docs.djangoproject.com/en/3.0/ref/contrib/admin
+  장고 html template 태그 사용
+  참고: docs.djangoproject.com/en/3.0/topics/templates
+  2-05까지 완료!
+  계획표 작성
+  
