@@ -74,4 +74,7 @@
   참고: docs.djangoproject.com/en/3.0/topics/templates
   2-05까지 완료!
   계획표 작성
-  
+ - 210303
+  9시 퇴근
+  일단 일기만 쓰고 오늘은 끝
+  내일도 야근 
