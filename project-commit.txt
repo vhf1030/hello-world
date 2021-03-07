@@ -25,7 +25,7 @@
   - django: 점프 투 장고 보면서 실습하기
   참고: https://wikidocs.net/book/4223
   - 계획표
-    ~03/07: 점프 투 장고 2장 실습 / 가상화폐 크롤링 모델 구현
+    ~03/07: 점프 투 장고 2장 실습 / 가상화폐 거래내역 스크래핑 모델 구현
     ~03/14: 점프 투 장고 3장 실습 / home server 유튜브 강의
     ~03/21: 점프 투 장고 4장 실습 / home server 적용 실습
     ~03/28: jango 이용하여 거래량 확인 서비스 배포
@@ -81,3 +81,14 @@
  - 210304
   오늘은 야근을 하진 않았으나, 맥주를 마시고 잠들어버렸다...
   10시 전 맥주 마시지 않기!!
+ - 210307
+  금, 토요일 커밋 실패
+  금요일에는 퇴근 후 시간내기가 어려움 - 대책필요
+  토요일에는 일어나자 마자 카페가는 습관 들이기
+  백업파일 다운로드
+  빗썸 거래량 관련 기사 - http://www.cbci.co.kr/news/articleView.html?idxno=320817
+  웹크롤러 개념 설명 - https://lyb1495.tistory.com/17
+  구현하려는 사이트는 웹크롤러 라기보다 웹스크래퍼의 개념이 맞는 듯
+  웹 스크래퍼 구현 강의 - https://nomadcoders.co/python-for-beginners
+  업비트 open api 이용 - https://docs.upbit.com/reference
+  repvol/Scripts/get_api_upbit.py
