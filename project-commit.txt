@@ -1,7 +1,7 @@
 1일 1커밋 시작!
 
 0. 중요
- - 백업파일 다운로드
+ - 백업파일 다운로드 - 완료
 
 1. 프로젝트
  - 홈페이지 만들기: GitHub.io (x)
@@ -68,6 +68,7 @@
   (cmd)
   run_mysite
   python manage.py runserver
+  http://127.0.0.1:8000/pybo/
   장고 admin 편의기능
   참고: docs.djangoproject.com/en/3.0/ref/contrib/admin
   장고 html template 태그 사용
@@ -85,10 +86,20 @@
   금, 토요일 커밋 실패
   금요일에는 퇴근 후 시간내기가 어려움 - 대책필요
   토요일에는 일어나자 마자 카페가는 습관 들이기
-  백업파일 다운로드
+  백업파일 다운로드 완료
   빗썸 거래량 관련 기사 - http://www.cbci.co.kr/news/articleView.html?idxno=320817
   웹크롤러 개념 설명 - https://lyb1495.tistory.com/17
   구현하려는 사이트는 웹크롤러 라기보다 웹스크래퍼의 개념이 맞는 듯
   웹 스크래퍼 구현 강의 - https://nomadcoders.co/python-for-beginners
   업비트 open api 이용 - https://docs.upbit.com/reference
   repvol/Scripts/get_api_upbit.py
+ - 210308
+  퇴근후 맥주를 마셨지만 카페에 왔다
+  칼퇴 후 7시 전 카페에 가는 습관을 들이자!
+  업비트 open api 이용 거래량 알림 모델 구현 진행(50%)
+  부트스트랩 적용
+  부트스트랩 공식 문서: getbootstrap.com/docs/4.5/getting-started/introduction
+  점프 투 장고 2-08까지 완료!
+  
+  
+  
