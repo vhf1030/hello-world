@@ -100,6 +100,6 @@
   부트스트랩 적용
   부트스트랩 공식 문서: getbootstrap.com/docs/4.5/getting-started/introduction
   점프 투 장고 2-08까지 완료!
-  
-  
-  
+ - 210308
+  점프 투 장고 2-10까지 완료!
+  화이팅!
