@@ -170,5 +170,7 @@
   마음이 너무 가볍당
  - 210411
   점프 투 장고 3-13 완료!
-  
-  
+ - 210413
+  점프 투 장고 3-14 완료!
+  질문내역 정리 ( Question.objects.filter(subject__startswith='테스트').delete() )
+
