@@ -181,6 +181,8 @@
   copy money 파이프라인 2.filter 까지 완료
  - 210425
   프로젝트명: 빝투
-  
+ - 210426
+  get_api_upbit version1
+  4.check 단계에서 전체 동향 파악
   
   
