@@ -183,6 +183,6 @@
   프로젝트명: 빝투
  - 210426
   get_api_upbit version1
-  4.check 단계에서 전체 동향 파악
+  4.check 단계에서 전체 동향 파악 -진행중
   
   
