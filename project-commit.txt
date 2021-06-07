@@ -232,4 +232,5 @@
   주말에도 하루 1시간 이상씩 정리하기! 
  - 210605
   dict_won 재귀함수 구현 완료
-  
+ - 210607
+  model_1 - candle_acc_trade_price_all_full_mean 수정
