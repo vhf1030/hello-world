@@ -234,3 +234,7 @@
   dict_won 재귀함수 구현 완료
  - 210607
   model_1 - candle_acc_trade_price_all_full_mean 수정
+ - 210608
+  목표: 주문기능 구현, 기능별 스크립트 분리
+
+
