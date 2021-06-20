@@ -285,4 +285,6 @@
  - 210617
   parse_market 에서 데이터 핸들링까지 진행
   check_market 에서 parse_market을 바로 사용하는 방향으로
-   
+ - 210620
+  upbit_cuotation_0.99 완료
+  test_run 수정 필요
