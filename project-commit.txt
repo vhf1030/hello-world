@@ -347,3 +347,38 @@
   1분간 최고 거래가 증감률, 거래량, 거래량 비율 계산 완료
  - 210705
   거래가격 표준편차, 평균가격 증감률 계산 완료
+  회귀분석 진행 완료
+   - "결측으로 인하여 144개의 관측치가 삭제되었습니다." 확인 - candle_acc_trade_volume가 0인 경우 NaN으로 표기
+   - y_high_price_ratio
+                                          Estimate Std. Error t value Pr(>|t|)    
+   (Intercept)                        7.207e-02  4.208e-03  17.125  < 2e-16 ***
+   candle_acc_trade_price_sum_01      1.539e-13  2.075e-14   7.416 1.23e-13 ***  !
+   candle_acc_trade_price_sum_05     -2.498e-15  7.798e-15  -0.320  0.74872    
+   candle_acc_trade_price_sum_10      1.338e-14  3.692e-15   3.625  0.00029 ***
+   minmax_price_sd_ratio_02           1.913e-01  1.005e-02  19.029  < 2e-16 ***  !
+   minmax_price_sd_ratio_05           4.580e-02  1.514e-02   3.025  0.00249 **   !
+   minmax_price_sd_ratio_10           1.320e-01  1.293e-02  10.208  < 2e-16 ***  !
+   candle_acc_trade_price_compare_02 -3.324e-07  1.695e-06  -0.196  0.84449    
+   candle_acc_trade_price_compare_05  5.557e-06  8.963e-06   0.620  0.53528    
+   candle_acc_trade_price_compare_10  6.588e-06  1.013e-05   0.651  0.51534    
+   mean_price_compare_02             -4.191e-02  6.657e-03  -6.295 3.10e-10 ***  !
+   mean_price_compare_05             -3.362e-03  7.129e-03  -0.472  0.63726    
+   mean_price_compare_10             -2.663e-02  4.219e-03  -6.310 2.81e-10 ***  !
+   - y_mean_price_increase
+                                       Estimate Std. Error t value Pr(>|t|)    
+   (Intercept)                        7.761e-01  4.740e-03 163.718  < 2e-16 ***
+   candle_acc_trade_price_sum_01     -5.713e-14  2.338e-14  -2.444   0.0145 *  
+   candle_acc_trade_price_sum_05      1.280e-15  8.784e-15   0.146   0.8842    
+   candle_acc_trade_price_sum_10      7.515e-16  4.159e-15   0.181   0.8566    
+   minmax_price_sd_ratio_02           2.753e-02  1.132e-02   2.432   0.0150 *  
+   minmax_price_sd_ratio_05           1.459e-02  1.705e-02   0.856   0.3922    
+   minmax_price_sd_ratio_10          -1.035e-02  1.457e-02  -0.710   0.4776    
+   candle_acc_trade_price_compare_02 -2.499e-07  1.909e-06  -0.131   0.8959    
+   candle_acc_trade_price_compare_05  2.909e-06  1.010e-05   0.288   0.7733    
+   candle_acc_trade_price_compare_10  6.183e-06  1.141e-05   0.542   0.5878    
+   mean_price_compare_02              2.858e-01  7.499e-03  38.117  < 2e-16 ***  !!
+   mean_price_compare_05             -5.340e-02  8.031e-03  -6.649 2.98e-11 ***  !!
+   mean_price_compare_10             -8.565e-03  4.753e-03  -1.802   0.0715 .  
+  정규화 진행 후 다시 해볼 것!
+  회귀분석 결과 바탕으로 매매모델 수정 필요 
+   
