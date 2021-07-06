@@ -348,8 +348,8 @@
  - 210705
   거래가격 표준편차, 평균가격 증감률 계산 완료
   회귀분석 진행 완료
-   - "결측으로 인하여 144개의 관측치가 삭제되었습니다." 확인 - candle_acc_trade_volume가 0인 경우 NaN으로 표기
-   - y_high_price_ratio
+   - "결측으로 인하여 143개의 관측치가 삭제되었습니다." 확인 - candle_acc_trade_volume가 0인 경우 NaN으로 표기
+   - y_high_price_ratio(BTC_2106):
                                           Estimate Std. Error t value Pr(>|t|)    
    (Intercept)                        7.207e-02  4.208e-03  17.125  < 2e-16 ***
    candle_acc_trade_price_sum_01      1.539e-13  2.075e-14   7.416 1.23e-13 ***  !
@@ -364,7 +364,7 @@
    mean_price_compare_02             -4.191e-02  6.657e-03  -6.295 3.10e-10 ***  !
    mean_price_compare_05             -3.362e-03  7.129e-03  -0.472  0.63726    
    mean_price_compare_10             -2.663e-02  4.219e-03  -6.310 2.81e-10 ***  !
-   - y_mean_price_increase
+   - y_mean_price_increase:
                                        Estimate Std. Error t value Pr(>|t|)    
    (Intercept)                        7.761e-01  4.740e-03 163.718  < 2e-16 ***
    candle_acc_trade_price_sum_01     -5.713e-14  2.338e-14  -2.444   0.0145 *  
@@ -380,7 +380,28 @@
    mean_price_compare_05             -5.340e-02  8.031e-03  -6.649 2.98e-11 ***  !!
    mean_price_compare_10             -8.565e-03  4.753e-03  -1.802   0.0715 .  
   범주형 종속변수 추가 하기(y_high_price_ratio_0.5)
-  정규화 진행 후 다시 해볼 것!
+  정규화 진행 후 다시 해볼 것! - 회귀분석에는 영향을 주지 않음
   회귀분석 결과 바탕으로 매매모델 수정 필요
   회귀분석 산점도 그려보기
-   
+ - 210706
+  매매모델 설계 변경 필요:
+   - 00~05: 1분 전 대기주문 현재가 매도
+   - 05~55: 후보마켓 탐색
+   - 55~00: 예측모델 대입 및 매수주문, 매도주문
+  데이터 탐색:
+   - score 변수 생성
+   - y_high_price_ratio 및 score 관점에서 mean_price_compare_10가 낮을수록 결과가 좋음
+   - y_mean_price_increase 관점에서는 mean_price_compare_02가 높을수록 결과가 좋음
+   - y_high_price_ratio_cat_0.5의 경우 필터링에 사용이 가능해보임
+    -> candle_acc_trade_price_sum_01가 높을수록,
+      minmax_price_sd_ratio_10가 높을수록,
+      candle_acc_trade_price_compare_10가 낮을수록,
+      mean_price_compare_10가 낮을수록 확률이 높음
+      * candle_acc_trade_price_compare_10 및 mean_price_compare_10의 경우 해당 변수만 따로 봤을때는 높을수록 확률이 높았음 - 해석필요
+    -> 해당 데이터 추출 후 비율 확인 및 시각화 진행해보기
+  정규화 진행:
+   - na값 제거 후 scale 함수(z score) 이용
+   - 거래량의 경우 log scale로 변환하는 방법도 고려
+    
+    
+    
