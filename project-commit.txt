@@ -380,9 +380,9 @@
    mean_price_compare_05             -5.340e-02  8.031e-03  -6.649 2.98e-11 ***  !!
    mean_price_compare_10             -8.565e-03  4.753e-03  -1.802   0.0715 .  
   범주형 종속변수 추가 하기(y_high_price_ratio_0.5)
-  정규화 진행 후 다시 해볼 것! - 회귀분석에는 영향을 주지 않음
+  정규화 진행 후 다시 해볼 것! - 회귀분석에는 영향을 주지 않는 점 확인 완료
   회귀분석 결과 바탕으로 매매모델 수정 필요
-  회귀분석 산점도 그려보기
+  회귀분석 산점도 그려보기 - 망함
  - 210706
   매매모델 설계 변경 필요:
    - 00~05: 1분 전 대기주문 현재가 매도
@@ -402,6 +402,11 @@
   정규화 진행:
    - na값 제거 후 scale 함수(z score) 이용
    - 거래량의 경우 log scale로 변환하는 방법도 고려
-    
-    
-    
+ - 210707
+   전체마켓 대비 거래량 고려할지
+   거래량 관련 지표(candle_acc_trade_price_sum, candle_acc_trade_price_compare)는 log scale로 변환 후 정규화 진행
+   y_high_price_ratio_cat_0.5 기준 데이터 필터링 이후 정규화 진행
+    - candle_acc_trade_price_sum_10 > 10억: 전체 마켓 대비 비중 추가 또는 대체 확인해보기
+    - minmax_price_sd_ratio_10 > 0.01: trace price 기준 ceil unit 값으로 변경하는 것이 좋아보임
+
+
