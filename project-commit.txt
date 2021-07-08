@@ -403,10 +403,11 @@
    - na값 제거 후 scale 함수(z score) 이용
    - 거래량의 경우 log scale로 변환하는 방법도 고려
  - 210707
-   전체마켓 대비 거래량 고려할지
-   거래량 관련 지표(candle_acc_trade_price_sum, candle_acc_trade_price_compare)는 log scale로 변환 후 정규화 진행
-   y_high_price_ratio_cat_0.5 기준 데이터 필터링 이후 정규화 진행
-    - candle_acc_trade_price_sum_10 > 10억: 전체 마켓 대비 비중 추가 또는 대체 확인해보기
-    - minmax_price_sd_ratio_10 > 0.01: trace price 기준 ceil unit 값으로 변경하는 것이 좋아보임
-
-
+  전체마켓 대비 거래량 고려할지
+  거래량 관련 지표(candle_acc_trade_price_sum, candle_acc_trade_price_compare)는 log scale로 변환 후 정규화 진행
+  y_high_price_ratio_cat_0.5 기준 데이터 필터링 이후 정규화 진행
+   - candle_acc_trade_price_sum_10 > 10억: 전체 마켓 대비 비중 추가 또는 대체 확인해보기
+   - minmax_price_sd_ratio_10 > 0.01: trace price 기준 ceil unit 값으로 변경하는 것이 좋아보임
+ - 210708
+  데이터 탐색 스크립트 정리
+   - 정렬 순서 변경 및 함수 수정
