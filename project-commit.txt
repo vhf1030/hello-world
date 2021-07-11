@@ -415,5 +415,11 @@
   refdata 재구축 및 검토 완료
  - 210711
   data filtering 이후 정규화 진행할 것
-  y_high_price_ratio 기준 filtering 조건 탐색중
+  y_high_price_ratio_cat_0.5 기준 filtering 조건 탐색중
+  candle_acc_trade_price_sum_02, minmax_price_sd_ratio_10로 필터링 진행해보기!!
+  
+  
+  
+  
+  
   
