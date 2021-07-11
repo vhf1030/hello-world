@@ -413,5 +413,7 @@
    - 정렬 순서 변경 및 함수 수정
  - 210709
   refdata 재구축 및 검토 완료
-  
+ - 210711
+  data filtering 이후 정규화 진행할 것
+  y_high_price_ratio 기준 filtering 조건 탐색중
   
