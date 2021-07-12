@@ -364,7 +364,7 @@
    mean_price_compare_02             -4.191e-02  6.657e-03  -6.295 3.10e-10 ***  !
    mean_price_compare_05             -3.362e-03  7.129e-03  -0.472  0.63726    
    mean_price_compare_10             -2.663e-02  4.219e-03  -6.310 2.81e-10 ***  !
-   - y_mean_price_increase:
+   - y_mean_price_increase(BTC_2106):
                                        Estimate Std. Error t value Pr(>|t|)    
    (Intercept)                        7.761e-01  4.740e-03 163.718  < 2e-16 ***
    candle_acc_trade_price_sum_01     -5.713e-14  2.338e-14  -2.444   0.0145 *  
@@ -385,7 +385,7 @@
   회귀분석 산점도 그려보기 - 망함
  - 210706
   매매모델 설계 변경 필요:
-   - 00~05: 1분 전 대기주문 현재가 매도
+   - 00~05: 1분 이상 대기주문 현재가 매도
    - 05~55: 후보마켓 탐색
    - 55~00: 예측모델 대입 및 매수주문, 매도주문
   데이터 탐색:
@@ -417,8 +417,8 @@
   data filtering 이후 정규화 진행할 것
   y_high_price_ratio_cat_0.5 기준 filtering 조건 탐색중
   candle_acc_trade_price_sum_02, minmax_price_sd_ratio_10로 필터링 진행해보기!!
-  
-  
+ - 210712
+  판매지표 생성, 스코어링 지표 재설정
   
   
   
