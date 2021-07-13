@@ -419,7 +419,10 @@
   candle_acc_trade_price_sum_02, minmax_price_sd_ratio_10로 필터링 진행해보기!!
  - 210712
   판매지표 생성, 스코어링 지표 재설정
-  
-  
+ - 210713
+  현재 필터링 기준 매매모델에 적용해보기
+   - 위험 감소를 위해 candle_acc_trade_price_compare_10 및 candle_acc_trade_price_ratio_02를 감소로 적용
+  전체 마켓에 대해 필터링 이후 데이터 통합하여 데이터 탐색 진행해보기
+   - RXP와 MLK의 y_high_bid_price_ratio_0.5_cat 차이가 많이 나는 이유 확인해보기: 필터링 이후 데이터 수?
   
   
