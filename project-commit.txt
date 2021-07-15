@@ -424,6 +424,6 @@
   해당 필터링 기준 매매모델에 적용해보기
    - 위험 감소를 위해 candle_acc_trade_price_compare_10 및 candle_acc_trade_price_ratio_02를 감소로 적용
   전체 마켓에 대해 필터링 이후 데이터 통합하여 데이터 탐색 진행해보기
-   - RXP와 MLK의 y_high_bid_price_ratio_0.5_cat 차이가 많이 나는 이유 확인해보기: 필터링 이후 데이터 수?
-  
-  
+   - RXP와 MLK의 y_high_bid_price_ratio_0.5_cat 차이가 많이 나는 이유 확인해보기: 거래량 차이에 따른 필터링 이후 데이터 수
+ - 210715
+  전체 마켓에 대해 필터링 이후 데이터 통합 스크립트 작성 완료
